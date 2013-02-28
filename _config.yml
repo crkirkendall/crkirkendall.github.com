@@ -9,10 +9,9 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
-author :
-<<<<<<< HEAD
+title : CRKIRKENDALL
+tagline: A Sandbox of Ideas
+author : Christopher Kirkendall
   name : Christopher Kirkendall
   email : tethysrealm@hotmail.com
   github : crkirkendall
