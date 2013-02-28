@@ -12,6 +12,7 @@ pygments: true
 title : Jekyll Bootstrap
 tagline: Site Tagline
 author :
+<<<<<<< HEAD
   name : Christopher Kirkendall
   email : tethysrealm@hotmail.com
   github : crkirkendall
