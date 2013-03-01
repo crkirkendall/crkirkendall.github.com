@@ -54,23 +54,22 @@
       </div>
     </div>
 
-    <div class="jumbotron masthead">
-      <div class="container">
-        <h1>Notebook</h1>
-        <div class="container-narrow">
-        <p>Basically a place to collect my thoughts about physics, computational programming, and mathematics</p>
-      </div>
-    </div>
-
-      <div class="content">
+    
+     <div class="container">
+      <div class="row-fluid">
+        <div class="span12">
         {{ content }}
+        </div>
       </div>
+     </div>
       <hr>
       <footer>
+	<div class="container">
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}.
           Powered by <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>
+      </div>
       </footer>
 
     </div>
