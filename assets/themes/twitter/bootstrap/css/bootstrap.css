@@ -4824,8 +4824,8 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .nav .active > a,
 .navbar-inverse .nav .active > a:hover,
 .navbar-inverse .nav .active > a:focus {
-  color: #049cdb;
-  background-color: #515151;
+  color: #999999;
+  background-color: #111111;
 }
 
 .navbar-inverse .navbar-link {
@@ -4845,14 +4845,14 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
-  color: #049cdb;
-  background-color: #515151;
+  color: #999999;
+  background-color: #111111;
 }
 
 .navbar-inverse .nav li.dropdown > a:hover .caret,
 .navbar-inverse .nav li.dropdown > a:focus .caret {
-  border-top-color: #049cdb;
-  border-bottom-color: #049cdb;
+  border-top-color: #999999;
+  border-bottom-color: #999999;
 }
 
 .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
@@ -4863,8 +4863,8 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle .caret,
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle .caret,
 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle .caret {
-  border-top-color: #049cdb;
-  border-bottom-color: #049cdb;
+  border-top-color: #999999;
+  border-bottom-color: #999999;
 }
 
 .navbar-inverse .navbar-search .search-query {
