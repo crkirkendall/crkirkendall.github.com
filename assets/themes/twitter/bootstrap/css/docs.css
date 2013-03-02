@@ -62,7 +62,7 @@ h3 code {
   font-weight: normal;
 }
 
-.container > .row > .span12 { 
+.container > .row-fluid > .span12 { 
   margin-top: 50px;
   margin-bottom: 50px;
 
