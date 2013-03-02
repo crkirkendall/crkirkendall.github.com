@@ -15,7 +15,7 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href='http://fonts.googleapis.com/css?family=Philosopher|EB+Garamond|Cinzel' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Philosopher|Ubuntu+Mono|EB+Garamond' rel='stylesheet' type='text/css'>
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">   
     <link href="{{ ASSET_PATH }}/bootstrap/css/docs.css" rel="stylesheet"> 
@@ -40,7 +40,7 @@
   </head>
 
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
 	  <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -62,19 +62,13 @@
 
     
      
-      <div class="row-fluid">
-        <div class="span12">
-        {{ content }}
-        </div>
-      </div>
+      <div class="container">
+	<div class="row">
+	  <div class="span12">
+	    <div class="content">
+        {{ content }}        
+      
      
-      <hr class="soften">
-
-
-      <div class="row-fluid">
-          <div class="span12">
-        
-       
       <footer>
 	<div class="container">
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}.
@@ -83,10 +77,10 @@
         </p>
       </div>
       </footer>
-
+       </div>
      </div>
    </div>
-
+  </div>
    
 
     {% include JB/analytics %}

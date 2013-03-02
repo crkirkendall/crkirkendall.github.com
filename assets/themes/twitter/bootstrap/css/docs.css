@@ -35,8 +35,8 @@
   font-size: 0.8em; }
 
 .tag_box a:hover {
-  background-color: #0099cc;
-  color: #ffffff; }
+  background-color: #cc3300;
+  color: #f0f0f0; }
 
 .tag_box a.active {
   background: #57A957;
@@ -48,11 +48,13 @@
 /* Body and structure
 -------------------------------------------------- */
 
-
 body {
   position: relative;
-  padding-top: 40px;    
+  padding-top: 40px;
+  background-image: url('/images/whitey.png');    
 }
+
+footer { text-align: center; }
 
 /* Code in headings */
 h3 code {
@@ -60,14 +62,22 @@ h3 code {
   font-weight: normal;
 }
 
+.container > .row > .span12 { 
+  margin-top: 50px;
+  margin-bottom: 50px;
 
+}
 
-/* Tweak navbar brand link to be super sleek
--------------------------------------------------- */
+.span12 > div {
+background-color: #fefefe;
+border: 1px solid #eeeeee;
+padding: 20px;
+margin-top:0px;
 
-/*body > .navbar {
-  font-size: 13px;
-}*/
+-webkit-box-shadow: 0 3px 7px rgba(0,0,0,.2), 0 -3px 7px rgba(0,0,0,.2);
+     -moz-box-shadow: 0 3px 7px rgba(0,0,0,.2), 0 -3px 7px rgba(0,0,0,.2);
+          box-shadow: 0 3px 7px rgba(0,0,0,.2), 0 -3px 7px rgba(0,0,0,.2);
+}
 
 /* Change the docs' brand */
 body > .navbar .brand {
@@ -76,39 +86,17 @@ body > .navbar .brand {
   margin-left: 20px;
   float: right;
   font-weight: bold;
-  /*color: #000;*/
   text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
   -webkit-transition: all .2s linear;
      -moz-transition: all .2s linear;
           transition: all .2s linear;
 }
+
+h3 { color: #005580; }
+
 body > .navbar .brand:hover {
   text-decoration: none;
   text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
-}
-
-.hero-unit h1 {
-  color: #005580; }
-
-
-/* Sections
--------------------------------------------------- */
-
-/* padding for in-page bookmarks and fixed navbar */
-section {
-  padding-top: 30px;
-}
-section > .page-header,
-section > .lead {
-  color: #5a5a5a;
-}
-section > ul li {
-  margin-bottom: 5px;
-}
-
-/* Separators (hr) */
-.bs-docs-separator {
-  margin: 40px 0 39px;
 }
 
 /* Faded out hr */
