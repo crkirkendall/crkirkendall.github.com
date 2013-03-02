@@ -35,7 +35,7 @@
   font-size: 0.8em; }
 
 .tag_box a:hover {
-  background-color: #0086b3;
+  background-color: #FF9900;
   color: #ffffff; }
 
 .tag_box a.active {
@@ -87,7 +87,8 @@ body > .navbar .brand:hover {
   text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
 }
 
-/*.page-header { color: #cc4400; }*/
+.hero-unit h1 {
+  color: #005580; }
 
 
 /* Sections
@@ -131,7 +132,7 @@ hr.soften {
 .jumbotron {
   position: relative;
   padding: 40px 0;
-  color: #fff;
+  color: #fcfcfc;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
   background: #00334d; /* Old browsers */
@@ -215,7 +216,7 @@ hr.soften {
   right: 0;
   bottom: 0;
   left: 0;
-  background: url(../img/bs-docs-masthead-pattern.png) repeat center center;
+  /*background: url(../img/bs-docs-masthead-pattern.png) repeat center center;*/
   opacity: .4;
 }
 @media
