@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} | Christopher Kirkendall</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
@@ -15,7 +15,7 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href='http://fonts.googleapis.com/css?family=Philosopher|Ubuntu+Mono|EB+Garamond' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cinzel|Open+Sans|Ubuntu+Mono|EB+Garamond' rel='stylesheet' type='text/css'>
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">   
     <link href="{{ ASSET_PATH }}/bootstrap/css/docs.css" rel="stylesheet"> 
@@ -40,7 +40,7 @@
   </head>
 
   <body>
-    <div class="navbar navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
 	  <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -49,8 +49,8 @@
             <span class="icon-bar"></span>
           </button>
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-	<div class="nav-collapse collapse">
-          <ul class="nav">
+	<div class="nav-collapse">
+          <ul class="nav pull-right">
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
@@ -60,18 +60,15 @@
       </div>
     </div>
 
-    <header class="jumbotron subhead" id="overview">
+    <!--<header class="jumbotron subhead" id="overview">
   <div class="container">
-    <h1>Notebook</h1>
-    <p class="lead">Christopher Kirkendall</p>
+        
   </div>
-</header>
+</header>-->
+
+
      
-      <div class="container">
-	<div class="row-fluid">
-	  <div class="span12">
-	    <div class="content">
-        {{ content }}        
+      {{ content }}        
       
      
       <footer>
@@ -82,10 +79,8 @@
         </p>
       </div>
       </footer>
-       </div>
-     </div>
-   </div>
-  </div>
+
+    
    
 
     {% include JB/analytics %}

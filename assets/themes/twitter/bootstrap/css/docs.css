@@ -51,7 +51,7 @@
 body {
   position: relative;
   padding-top: 40px;
-  background-image: url('/images/whitey.png');    
+      
 }
 
 footer { text-align: center; }
@@ -69,30 +69,28 @@ h3 code {
 }
 
 .span12 > div {
-background-color: #fefefe;
+/*background-color: #fefefe;
 border: 1px solid #eeeeee;
 padding: 20px;
 margin-top:0px;
 
 -webkit-box-shadow: 0 3px 7px rgba(0,0,0,.2), 0 -3px 7px rgba(0,0,0,.2);
      -moz-box-shadow: 0 3px 7px rgba(0,0,0,.2), 0 -3px 7px rgba(0,0,0,.2);
-          box-shadow: 0 3px 7px rgba(0,0,0,.2), 0 -3px 7px rgba(0,0,0,.2);
+          box-shadow: 0 3px 7px rgba(0,0,0,.2), 0 -3px 7px rgba(0,0,0,.2);*/
 }
 
 /* Change the docs' brand */
 body > .navbar .brand {
   padding-right: 0;
   padding-left: 0;
-  margin-left: 20px;
-  float: right;
+  margin-left: 0px;
+  float: left;
   font-weight: bold;
   text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
   -webkit-transition: all .2s linear;
      -moz-transition: all .2s linear;
           transition: all .2s linear;
 }
-
-h3 { color: #005580; }
 
 body > .navbar .brand:hover {
   text-decoration: none;
@@ -118,11 +116,13 @@ hr.soften {
 /* Base class
 ------------------------- */
 .jumbotron {
+  height: 300px;
   zoom: 1;
-  filter: alpha(opacity=80);
-  opacity: 0.8;
-  position: relative;
-  padding: 40px 0;
+  filter: alpha(opacity=90);
+  opacity: 0.9;
+  margin-top: -40px;
+  position: relative;  
+  padding: 80px 0 20px;
   color: #fcfcfc;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
