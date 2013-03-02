@@ -118,6 +118,9 @@ hr.soften {
 /* Base class
 ------------------------- */
 .jumbotron {
+  zoom: 1;
+  filter: alpha(opacity=80);
+  opacity: 0.8;
   position: relative;
   padding: 40px 0;
   color: #fcfcfc;
@@ -126,7 +129,7 @@ hr.soften {
   background: #00334d; /* Old browsers */
   background: -moz-linear-gradient(45deg,  #00334d 0%, #0088cc 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#00334d), color-stop(100%,#0088cc)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(45deg,  #00334d 0%,#0088cc 100%); /* Chrome10+,Safari5.1+ */
+  background: -webkit-linear-gradient(left,  #00334d 25%,#00a3ad 100%); /* Chrome10+,Safari5.1+ */
   background: -o-linear-gradient(45deg,  #00334d 0%,#0088cc 100%); /* Opera 11.10+ */
   background: -ms-linear-gradient(45deg,  #00334d 0%,#0088cc 100%); /* IE10+ */
   background: linear-gradient(45deg,  #00334d 0%,#0088cc 100%); /* W3C */
@@ -140,6 +143,7 @@ hr.soften {
   font-weight: bold;
   letter-spacing: -1px;
   line-height: 1;
+
 }
 .jumbotron p {
   font-size: 24px;
