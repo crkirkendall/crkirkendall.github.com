@@ -82,24 +82,70 @@
       </div>
     </div>
 
-    <!--<header class="jumbotron subhead" id="overview">
-  <div class="container">
-        
-  </div>
-</header>-->
-     <div align="justify"> 
-     {{ content }}        
-     <div> 
+
+     <div class="container"> 
+		 <div class="row">
+			<div align="justify">
+				<div class="span8">
+					<h1>{{ page.title }}</h1>
+					{% if page.tagline %}
+					<p class="lead">{{ page.tagline }}</p>
+					{% endif %}
+					<hr>    
+					{{ content }}
+				</div>	   
+			</div>
+		 
+	     
+     
+		     <div class="span4 side">
+				<ul class="thumbnails">
+					<li class="span4">
+						<div class="thumbnail">
+							<h4>Lorem Ipsum</h4>
+							<hr class="soften">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</li>
+					
+					<li class="span4">
+						<div class="thumbnail">
+							<h4>Lorem Ipsum</h4>
+							<hr class="soften">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</li>
+					
+					<li class="span4">
+						<div class="thumbnail">
+							<h4>Lorem Ipsum</h4>
+							<hr class="soften">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</li>
+					
+					<li class="span4">
+						<div class="thumbnail">
+							<h4>Lorem Ipsum</h4>
+							<hr class="soften">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</li>
+				</ul>
+		      </div>
+	      </div>
+	</div>  
+      
       <footer>
-	<div class="container-fluid">
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}.
-          Powered by <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
-        </div>
+		<div class="container-fluid">
+			<p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}.
+			Powered by <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+			and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+			</p>
+		</div>
       </footer>   
 
-    {% include JB/analytics %}
+  {% include JB/analytics %}
   <script type="text/javascript">
   Hyphenator.run();
   </script>

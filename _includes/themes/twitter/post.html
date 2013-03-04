@@ -1,14 +1,3 @@
-<div class="container">
- <div class="row">
-  <div class="span8">
-  <div>
-    <h1>{{ page.title }}</h1>
-     {% if page.tagline %}
-    <p class="lead">{{ page.tagline }}</p>
-     {% endif %}
-  </div>
-  <hr>
-
    <strong>{{ page.date | date_to_long_string }}</strong>
    <div class="hyphenate text" lang="en">
       {{ content }}
@@ -48,9 +37,3 @@
     </div>
     
     {% include JB/comments %}
-  </div>
-  <div class="span4">
-  </div>
- </div>
-</div>
-
