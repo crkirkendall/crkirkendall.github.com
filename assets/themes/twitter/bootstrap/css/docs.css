@@ -63,7 +63,12 @@ body {
   padding-top: 40px;      
 }
 
-
+pre {
+	background-color: #353535; 
+	padding:1px 3px;
+	line-height: 20px;
+}
+.highlight pre { white-space: pre; overflow: auto; }
 
 footer { text-align: center; }
 
