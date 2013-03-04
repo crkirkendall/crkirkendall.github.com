@@ -70,6 +70,8 @@ pre {
 }
 .highlight pre { white-space: pre; overflow: auto; }
 
+code {background-color: #ececec;}
+
 footer { text-align: center; }
 
 /* Code in headings */

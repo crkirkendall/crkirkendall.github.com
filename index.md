@@ -12,14 +12,15 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 ## Update Author Attributes
 
 In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+{% highlight java %}
+title : My Blog =)
+
+author :
+name : Name Lastname
+email : blah@email.test
+github : username
+twitter : username
+{% endhighlight %}
 
 The theme should reference these variables whenever needed.
     
@@ -28,7 +29,9 @@ The theme should reference these variables whenever needed.
 This blog contains sample posts which help stage pages and blog data.
 When you don't need the samples anymore just delete the `_posts/core-samples` folder.
 
-    $ rm -rf _posts/core-samples
+{% highlight java %}
+$ rm -rf _posts/core-samples
+{% endhighlight %}
 
 Here's a sample "posts list".
 
