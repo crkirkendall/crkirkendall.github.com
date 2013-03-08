@@ -12,7 +12,7 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 ## Update Author Attributes
 
 In `_config.yml` remember to specify your own data:
-{% highlight java %}
+{% highlight awk linenos=table %}
 title : My Blog =)
 
 author :
@@ -29,7 +29,7 @@ The theme should reference these variables whenever needed.
 This blog contains sample posts which help stage pages and blog data.
 When you don't need the samples anymore just delete the `_posts/core-samples` folder.
 
-{% highlight java %}
+{% highlight terminal %}
 $ rm -rf _posts/core-samples
 {% endhighlight %}
 

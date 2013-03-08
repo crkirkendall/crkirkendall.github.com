@@ -1,5 +1,5 @@
 /*!
- * Bootstrap v2.3.0
+ * Bootstrap v2.3.1
  *
  * Copyright 2012 Twitter, Inc
  * Licensed under the Apache License v2.0
@@ -238,7 +238,7 @@ a {
 a:hover,
 a:focus {
   color: #0099e6;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .img-rounded {
@@ -739,7 +739,7 @@ h4,
 h5,
 h6 {
   margin: 15px 0;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: Cinzel, "Open Sans", sans-serif;
   font-weight: normal;
   line-height: 30px;
   color: inherit;
@@ -982,9 +982,9 @@ pre {
 
 code {
   padding: 2px 4px;
-  color: #cc3300;
+  color: #cc3333;
   white-space: nowrap;
-  background-color: #282828;
+  background-color: #f7f7f9;
   border: 1px solid #e1e1e8;
 }
 
@@ -3945,7 +3945,7 @@ input[type="submit"].btn.btn-mini {
 
 .nav > li > a {
   display: block;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: Cinzel, "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 15px;
   text-transform: uppercase;
 }
@@ -4403,7 +4403,7 @@ input[type="submit"].btn.btn-mini {
   float: left;
   padding: 5px 20px 5px;
   margin-left: -20px;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: Cinzel, "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 17px;
   font-weight: 200;
   color: #777777;
@@ -4508,7 +4508,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   padding: 4px 14px;
   margin-bottom: 0;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: Cinzel, "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
