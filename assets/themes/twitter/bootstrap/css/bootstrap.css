@@ -77,9 +77,10 @@ a:focus {
   outline-offset: -2px;
 }
 
+a:focus,
 a:hover,
 a:active {
-  outline: 0;
+  text-decoration: dashed;
 }
 
 sub,
@@ -238,7 +239,7 @@ a {
 a:hover,
 a:focus {
   color: #0099e6;
-  text-decoration: none;
+  text-decoration: dashed;
 }
 
 .img-rounded {
@@ -3946,6 +3947,7 @@ input[type="submit"].btn.btn-mini {
 .nav > li > a {
   display: block;
   font-family: Cinzel, "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 15px;
   text-transform: uppercase;
 }
 
@@ -4403,7 +4405,7 @@ input[type="submit"].btn.btn-mini {
   padding: 5px 20px 5px;
   margin-left: -20px;
   font-family: Cinzel, "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 200;
   color: #777777;
   text-shadow: 0 1px 0 #ffffff;
